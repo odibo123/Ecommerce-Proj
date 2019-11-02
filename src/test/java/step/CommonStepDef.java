@@ -10,7 +10,7 @@ HomePage homePage = new HomePage();
 	@Given("^user is on Home Page$")
 	public void user_is_on_Home_Page() throws Throwable {
 		TestBase.initialization(); 
-		TestBase.driver.get("url");
+		//TestBase.driver.get("url");
 	}
 
 	@Given("^user sees a Logo banner$")
